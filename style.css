@@ -1,0 +1,96 @@
+body {
+  background-color: rgb(245, 245, 245);
+  color: rgb(20, 20, 20);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.2em;
+  color: rgb(140, 140, 140);
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/random");
+  background-size: cover;
+  color: rgb(245, 245, 245);
+  padding: 120px 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(20, 20, 20);
+  font-size: 1.2em;
+  background-color: rgb(121,247,178, 0.2);
+}
+
+a:hover {
+  background-color: rgb(121,247,178, 1);
+}
+
+.container {
+  margin: 50px auto;
+  width: 700px;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.card {
+  width: 33%;
+  display: inline-block;
+}
+
+.card img {
+  display: inline-block;
+  width: 90%;
+  height: 100px;
+  padding: 10px;
+}
+
+.card .img-round {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+}
+
+.card-img-container {
+  background-color: rgb(255, 255, 255);
+}
+
